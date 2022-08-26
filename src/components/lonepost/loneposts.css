@@ -1,0 +1,106 @@
+.lonepost {
+  margin-top: 5rem;
+  margin: 5rem auto 0;
+}
+
+.lonepostWrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lonepostImg {
+  width: 80vw;
+  height: 350px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.lonepostTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", sans-serif;
+  font-size: 28px;
+}
+
+.lonepostTitleInput {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", sans-serif;
+  font-size: 28px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  color: gray;
+}
+
+.lonepostTitleInput:focus {
+  outline: none;
+}
+
+.lonepostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.lonepostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.lonepostIcon:first-child {
+  color: teal;
+}
+.lonepostIcon:last-child {
+  color: tomato;
+}
+
+.lonepostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  color: #b39656;
+  font-family: "Varela Round", serif;
+}
+
+.lonepostDescription {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  overflow: hidden;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.lonepostDescriptionInput {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  overflow: hidden;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.lonepostDescriptionInput:focus {
+  outline: none;
+}
+
+.lonepostDescription:first-letter {
+  font-size: 50px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.lonepostButton {
+  border: none;
+  background-color: teal;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}

@@ -1,0 +1,74 @@
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Josefin Sans", sans-serif;
+  z-index: 999;
+  overflow: hidden;
+  padding: 1.5rem;
+}
+@media screen and (max-width: 450px) {
+  .navListItem {
+    font-size: 14px;
+  }
+}
+
+.navLeft {
+  display: none;
+}
+.navRight {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.navCenter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.navImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navIcon {
+  font-size: 20px;
+  margin: 10px;
+  color: #444;
+  cursor: pointer;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.navSearchIcon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navRight {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
