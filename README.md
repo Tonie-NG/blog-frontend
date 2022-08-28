@@ -1,6 +1,6 @@
 # Tonie Search
 ## Description: 
-This is a blog application that has the full functionality of a blog. Users can create posts, view post, delete posts, update their information alongside many othe functionalities
+This is a blog application that has the full functionality of a blog. Users can create posts, view post, delete posts, update their information alongside many other functionalities
 
 ## Live Demo
  This project is not complete. I'm still working on it, do wll to check in some other time.
