@@ -1,4 +1,4 @@
-# Tonie Search
+# Blog Application 
 ## Description: 
 This is a blog application that has the full functionality of a blog. Users can create posts, view post, delete posts, update their information alongside many other functionalities
 
